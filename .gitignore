@@ -1,0 +1,4 @@
+model_data/*.h5
+model_data/voc_classes.txt
+__pycache__/*
+.idea/*
