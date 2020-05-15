@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Class definition of YOLO_v3 style detection model_data on image and video
-"""
-
 import colorsys
 import os
 from timeit import default_timer as timer
@@ -17,7 +13,7 @@ from yolo3.utils import letterbox_image
 import os, cv2
 from keras.utils import multi_gpu_model
 
-model_name = "meter_model.h5"
+model_name = "model.h5"
 
 class YOLO(object):
     _defaults = {
