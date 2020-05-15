@@ -28,3 +28,4 @@ class yoloCamera():
         
     def close(self):
         self.yolocore.close_session()
+

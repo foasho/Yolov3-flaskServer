@@ -17,7 +17,7 @@ from yolo3.utils import letterbox_image
 import os, cv2
 from keras.utils import multi_gpu_model
 
-model_name = "target_model.h5"
+model_name = "meter_model.h5"
 
 class YOLO(object):
     _defaults = {
